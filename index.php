@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<!DOCTYPE html>
 <?php
 //Iframe Calendar Link
 //by Pete Holden
@@ -349,7 +349,10 @@ switch ($MonthStartDay) {
 }
 
 ?>
-
+<head>
+    
+</head>
+<body>
 <script>
 function SetPage(url)
 {
@@ -532,6 +535,5 @@ document.getElementById("Databox").setAttribute("src", url);
 </table>
 
 </div>
-
-
-<?php include('footer.php');?>
+</body>
+</html>
